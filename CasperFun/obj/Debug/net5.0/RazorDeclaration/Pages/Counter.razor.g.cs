@@ -82,6 +82,13 @@ using CasperFun.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using MudBlazor;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -91,13 +98,17 @@ using CasperFun.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 9 "/Users/room/Development/blazor/CasperFun/CasperFun/Pages/Counter.razor"
+#line 6 "/Users/room/Development/blazor/CasperFun/CasperFun/Pages/Counter.razor"
        
-    private int currentCount = 0;
+    public string Text { get; set; } = "????";
+    public string ButtonText { get; set; } = "Click Me";
+    public int ButtonClicked { get; set; }
 
-    private void IncrementCount()
+    void ButtonOnClick()
     {
-        currentCount++;
+        ButtonClicked += 1;
+        Text = $"Awesome x {ButtonClicked}";
+        ButtonText = "Click Me Again";
     }
 
 #line default

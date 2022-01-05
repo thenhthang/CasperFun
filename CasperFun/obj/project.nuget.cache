@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5cbt37QV/y07Rht6XCHMoOnzDevBQwZZMH5A+pDehJNPkAtdzQQrIOGh12TZLOEE+yBBOcNNX/OjmpXlvHRipw==",
+  "dgSpecHash": "0CKKbyiVRfxK0STYqr8J7ILjAbfaWODr3YSCzYsONIUzY+FnmT3mk73QAcdYjf7qrG7gj7/rwzTi5jdq+MvPqw==",
   "success": true,
   "projectFilePath": "/Users/room/Development/blazor/CasperFun/CasperFun/CasperFun.csproj",
   "expectedPackageFiles": [
@@ -28,8 +28,12 @@
     "/Users/room/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "/Users/room/.nuget/packages/microsoft.jsinterop/5.0.13/microsoft.jsinterop.5.0.13.nupkg.sha512",
     "/Users/room/.nuget/packages/microsoft.jsinterop.webassembly/5.0.13/microsoft.jsinterop.webassembly.5.0.13.nupkg.sha512",
+    "/Users/room/.nuget/packages/mudblazor/5.2.0/mudblazor.5.2.0.nupkg.sha512",
     "/Users/room/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
-    "/Users/room/.nuget/packages/system.net.http.json/5.0.0/system.net.http.json.5.0.0.nupkg.sha512",
+    "/Users/room/.nuget/packages/system.net.http.json/6.0.0/system.net.http.json.6.0.0.nupkg.sha512",
+    "/Users/room/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/room/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/Users/room/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
     "/Users/room/.nuget/packages/microsoft.netcore.app.runtime.browser-wasm/5.0.13/microsoft.netcore.app.runtime.browser-wasm.5.0.13.nupkg.sha512"
   ],
   "logs": []

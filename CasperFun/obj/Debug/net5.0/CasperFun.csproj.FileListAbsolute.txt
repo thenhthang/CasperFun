@@ -30,7 +30,12 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/Microsoft.JSInterop.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll.gz
+/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/MudBlazor.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.IO.Pipelines.dll.gz
+/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Net.Http.Json.dll.gz
+/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.dll.gz
+/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Encodings.Web.dll.gz
+/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Json.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/Microsoft.CSharp.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/Microsoft.VisualBasic.Core.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/Microsoft.VisualBasic.dll.gz
@@ -92,7 +97,6 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Linq.Queryable.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Linq.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Memory.dll.gz
-/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Net.Http.Json.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Net.Http.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Net.HttpListener.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Net.Mail.dll.gz
@@ -130,7 +134,6 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Resources.Reader.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Resources.ResourceManager.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Resources.Writer.dll.gz
-/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Runtime.CompilerServices.VisualC.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Runtime.Extensions.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Runtime.Handles.dll.gz
@@ -163,8 +166,6 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Encoding.CodePages.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Encoding.Extensions.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Encoding.dll.gz
-/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Encodings.Web.dll.gz
-/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Json.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.RegularExpressions.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Threading.Channels.dll.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Threading.Overlapped.dll.gz
@@ -225,7 +226,12 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/Microsoft.JSInterop.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll
+/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/MudBlazor.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.IO.Pipelines.dll
+/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Net.Http.Json.dll
+/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.dll
+/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Encodings.Web.dll
+/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Json.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/Microsoft.CSharp.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/Microsoft.VisualBasic.Core.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/Microsoft.VisualBasic.dll
@@ -287,7 +293,6 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Linq.Queryable.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Linq.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Memory.dll
-/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Net.Http.Json.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Net.Http.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Net.HttpListener.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Net.Mail.dll
@@ -325,7 +330,6 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Resources.Reader.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Resources.ResourceManager.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Resources.Writer.dll
-/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Runtime.CompilerServices.VisualC.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Runtime.Extensions.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Runtime.Handles.dll
@@ -358,8 +362,6 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Encoding.CodePages.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Encoding.Extensions.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Encoding.dll
-/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Encodings.Web.dll
-/Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.Json.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Text.RegularExpressions.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Threading.Channels.dll
 /Users/room/Development/blazor/CasperFun/CasperFun/bin/Debug/net5.0/wwwroot/_framework/System.Threading.Overlapped.dll
@@ -448,7 +450,12 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/QLGaGk7C.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/GubakS4r.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/ZmBqUVrR.gz
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/LPtQOEMZ.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/XvVmdypX.gz
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/FKBtNINr.gz
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/B4LRZoT7.gz
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/Sj7FBBr2.gz
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/Sc+DF50a.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/Y+7gh7w0.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/9yJ000ec.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/2DHxoep3.gz
@@ -510,7 +517,6 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/i5N37QUC.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/eKtFgYy9.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/5oaAO+TN.gz
-/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/8oU2R5nH.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/bRuNlpcH.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/O+t8p8OT.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/4UKAzWKI.gz
@@ -548,7 +554,6 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/8mw2h1EP.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/qFk1FPfy.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/9G+sajDG.gz
-/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/PTmeP+7z.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/Z0qzyyY2.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/rZg48s1B.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/TWQ3coJW.gz
@@ -581,8 +586,6 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/2G+PvGkw.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/8d6KSKQK.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/tF2Rd6fd.gz
-/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/sw1gEmpz.gz
-/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/DekOS6FL.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/HHNXf6Tk.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/H2HlnhwS.gz
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/build-gz/p4hLCEym.gz
