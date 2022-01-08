@@ -637,3 +637,11 @@
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/CasperFun.pdb
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/serviceworkers/wwwroot/service-worker.js
 /Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/service-worker-assets.js
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/RazorDeclaration/Shared/SecondLayout.razor.g.cs
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/Razor/Shared/SecondLayout.razor.g.cs
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/RazorDeclaration/Pages/CasperScan.razor.g.cs
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/RazorDeclaration/Pages/Dashboard.razor.g.cs
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/RazorDeclaration/Pages/Wallet.razor.g.cs
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/Razor/Pages/CasperScan.razor.g.cs
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/Razor/Pages/Dashboard.razor.g.cs
+/Users/room/Development/blazor/CasperFun/CasperFun/obj/Debug/net5.0/Razor/Pages/Wallet.razor.g.cs

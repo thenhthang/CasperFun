@@ -9,7 +9,7 @@
       "url": "_content\/MudBlazor\/MudBlazor.min.js"
     },
     {
-      "hash": "sha256-UFZxOJ1zQAVJ897j\/81YeCsCePA7Z8PLpwlMJ5I1kyc=",
+      "hash": "sha256-F\/6+IQWZJ7QSJL1Rl5kFQftVRDv0WbIfyJkdnJ4RQcc=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -797,11 +797,11 @@
       "url": "_framework\/dotnet.5.0.13.js"
     },
     {
-      "hash": "sha256-uW1tHFVxECoNin6+GF880dDGsTP4JcrgnitMziTq2gI=",
+      "hash": "sha256-mLUZBKi7\/nfCELsowoMrPzc7+wcE26bnGuexqjunwhU=",
       "url": "_framework\/CasperFun.dll"
     },
     {
-      "hash": "sha256-l2sza7Lanq9ZxID+NffHIX4w+yBYFiGmi6Lt3secYuo=",
+      "hash": "sha256-6qGIWxd5hR5A7VDNmCujX7QGOQq3wTVJlW\/+eRFeO+4=",
       "url": "_framework\/CasperFun.pdb"
     },
     {
@@ -1593,7 +1593,7 @@
       "url": "_framework\/dotnet.5.0.13.js.gz"
     },
     {
-      "hash": "sha256-SO\/fuIIWUxoIu1OABrOpK5n\/AvzxJcg+0H3PT1eutAE=",
+      "hash": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
       "url": "css\/app.css"
     },
     {
@@ -1641,7 +1641,7 @@
       "url": "css\/open-iconic\/README.md"
     },
     {
-      "hash": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "hash": "sha256-V+nOLoJsRUUjKvHpdAPJe14cuKIc0xhkJW9O+kZ1ZkY=",
       "url": "favicon.ico"
     },
     {
@@ -1649,8 +1649,20 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-FrUZh6XLF+u2AvfHgdgk0kGsA3kITlQQ9Wr4+L3LS00=",
+      "hash": "sha256-3ZOLN12VeUs\/R0+IshD\/\/fgPxqXu29Dk6\/XUMTw7A4k=",
+      "url": "img\/logo.png"
+    },
+    {
+      "hash": "sha256-IXdOuaph9HtRRNEIHXDkZGEiW1+sHkUu8ygLGOzUxIM=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-icDIcBD1BF8mqbHMMBl6laQrM4cUQ1SFohO1XNKb+LE=",
+      "url": "js\/casper-js-sdk.v2.7.4.js"
+    },
+    {
+      "hash": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "url": "js\/casperfun.js"
     },
     {
       "hash": "sha256-UTDfUpLJq+bB+Lv9QtoRqnDTqikbuIgLLAaCGGeTzFE=",
@@ -1661,13 +1673,17 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-RAuGHDRtQxsrPitwOj99wGjho9fjBPXgzGQ6In46w8c=",
+      "hash": "sha256-Va3bBwGoUlXTdH\/IpdrwVEJliLJILo601TqjPLIW2HY=",
+      "url": "version.js"
+    },
+    {
+      "hash": "sha256-KWWX4Od98wb0YHc7aJu7tfzQ6JGwXbtTeY+OWWbIFpM=",
       "url": "CasperFun.styles.css"
     },
     {
-      "hash": "sha256-\/jMKzUOgR2GmVKjNVzW0cl2v8G\/Nu7tol0tZ5BLFnb0=",
+      "hash": "sha256-QBPq1GuYpCIJ4d7weTpaikqGekOIwlOHe6NOYHoLg88=",
       "url": "CasperFun.bundle.scp.css"
     }
   ],
-  "version": "C2FEnl4I"
+  "version": "usY14Ube"
 };

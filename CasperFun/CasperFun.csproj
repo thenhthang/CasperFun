@@ -19,4 +19,12 @@
   <ItemGroup>
     <None Remove="MudBlazor" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\js\" />
+    <Content Remove="wwwroot\img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
 </Project>
