@@ -28,7 +28,7 @@
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-xHxYfiE2wc+wxBd+DKxMxg8gnyMFpxKhjKAkzDkq0BE=",
       "System.Text.Encodings.Web.dll": "sha256-CvN0xtRPYdvN9PfX9Y2MqdDq1ksmKAN+qIVfHwd8SJQ=",
       "System.Text.Json.dll": "sha256-INQ3+sfwe3oR1EkSuPeNFNdC524UAvyoFCOY1yoTzrU=",
-      "CasperFun.dll": "sha256-MPyF4CiGaO1TB0sly8PZYiHIqxaHoq7LeeIXQWFdRVA=",
+      "CasperFun.dll": "sha256-5wX+ah6zMxns08TrDFnDzJSlN2AmH17gvIQtfI4hjiU=",
       "System.Collections.Concurrent.dll": "sha256-ukCq8qJAnTCOY24tEGPD1xqvyT0YBocJ8amc1LPSnbk=",
       "System.Collections.NonGeneric.dll": "sha256-bjQpAyjDeJSBnGzWVuZ2yhpvEt1coPabhzfDhkBENrw=",
       "System.Collections.Specialized.dll": "sha256-0i1fgh2kE\/+JLLQV\/I+grKszoflwXPMM0QWA8x3TmIQ=",
@@ -50,7 +50,7 @@
       "System.Private.Uri.dll": "sha256-NRtX8kzxqyXj+4NrFBmdrqPiiYiTp53ylvRAks7Vsd0=",
       "System.Runtime.InteropServices.RuntimeInformation.dll": "sha256-ByOTS8TUY\/jl04TkfWhbO45YUa0+wkIDlc4CSzofFGw=",
       "System.Text.RegularExpressions.dll": "sha256-rlaeLiO+MMhM\/waO2XyD3FUuFjMuo8UYMWPunB5bXxc=",
-      "System.Private.CoreLib.dll": "sha256-WPDyPD7X8TAJ75e3MXsC61XE7X8gLVd\/iH6vJWi98Vs="
+      "System.Private.CoreLib.dll": "sha256-vpeStRkn+pe5rpUxf0RuwnMpukqZyBDO8\/1W6+PZCkU="
     },
     "lazyAssembly": null,
     "pdb": null,

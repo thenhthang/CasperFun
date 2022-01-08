@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-SO\/fuIIWUxoIu1OABrOpK5n\/AvzxJcg+0H3PT1eutAE=",
+      "hash": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
       "url": "css\/app.css"
     },
     {
@@ -49,7 +49,7 @@
       "url": "css\/open-iconic\/README.md"
     },
     {
-      "hash": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "hash": "sha256-V+nOLoJsRUUjKvHpdAPJe14cuKIc0xhkJW9O+kZ1ZkY=",
       "url": "favicon.ico"
     },
     {
@@ -57,8 +57,20 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-FrUZh6XLF+u2AvfHgdgk0kGsA3kITlQQ9Wr4+L3LS00=",
+      "hash": "sha256-3ZOLN12VeUs\/R0+IshD\/\/fgPxqXu29Dk6\/XUMTw7A4k=",
+      "url": "img\/logo.png"
+    },
+    {
+      "hash": "sha256-IXdOuaph9HtRRNEIHXDkZGEiW1+sHkUu8ygLGOzUxIM=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-icDIcBD1BF8mqbHMMBl6laQrM4cUQ1SFohO1XNKb+LE=",
+      "url": "js\/casper-js-sdk.v2.7.4.js"
+    },
+    {
+      "hash": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "url": "js\/casperfun.js"
     },
     {
       "hash": "sha256-UTDfUpLJq+bB+Lv9QtoRqnDTqikbuIgLLAaCGGeTzFE=",
@@ -67,6 +79,10 @@
     {
       "hash": "sha256-4Yh4OTT5TEAPNyXEzOG+n5l2HPK294WFItz4SIelj88=",
       "url": "sample-data\/weather.json"
+    },
+    {
+      "hash": "sha256-Va3bBwGoUlXTdH\/IpdrwVEJliLJILo601TqjPLIW2HY=",
+      "url": "version.js"
     },
     {
       "hash": "sha256-Uv0JiOiPEvlGxygIhcdY8XYm\/Nt+zgVckKrqB2uih0w=",
@@ -97,7 +113,7 @@
       "url": "_framework\/dotnet.5.0.13.js"
     },
     {
-      "hash": "sha256-RAuGHDRtQxsrPitwOj99wGjho9fjBPXgzGQ6In46w8c=",
+      "hash": "sha256-KWWX4Od98wb0YHc7aJu7tfzQ6JGwXbtTeY+OWWbIFpM=",
       "url": "CasperFun.styles.css"
     },
     {
@@ -193,7 +209,7 @@
       "url": "_framework\/System.Text.Json.dll"
     },
     {
-      "hash": "sha256-MPyF4CiGaO1TB0sly8PZYiHIqxaHoq7LeeIXQWFdRVA=",
+      "hash": "sha256-5wX+ah6zMxns08TrDFnDzJSlN2AmH17gvIQtfI4hjiU=",
       "url": "_framework\/CasperFun.dll"
     },
     {
@@ -281,11 +297,11 @@
       "url": "_framework\/System.Text.RegularExpressions.dll"
     },
     {
-      "hash": "sha256-WPDyPD7X8TAJ75e3MXsC61XE7X8gLVd\/iH6vJWi98Vs=",
+      "hash": "sha256-vpeStRkn+pe5rpUxf0RuwnMpukqZyBDO8\/1W6+PZCkU=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-PfOVqS2DqO0ohoC4geyQ\/9M1UIABLuSCtphWWbvgRQg=",
+      "hash": "sha256-b0Zo3CnQ5x6o1gAO+FaXwA0PSkSDJbVsHV6Kmr7Qak4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -293,5 +309,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "s\/BO\/Pu7"
+  "version": "YkFu+Vl2"
 };
