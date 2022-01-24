@@ -89,6 +89,41 @@ using MudBlazor;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using System.Security.Claims;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using Blazored.SessionStorage;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using System.Text.Json;
+
+#line default
+#line hidden
+#nullable disable
     public partial class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -96,6 +131,27 @@ using MudBlazor;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 24 "/Users/room/Development/blazor/CasperFun/CasperFun/App.razor"
+      
+    MudTheme MyCustomTheme = new MudTheme()
+    {
+        Palette = new Palette()
+        {
+            Primary = "#e1372d",//Colors.Blue.Default,
+            Secondary = Colors.Green.Accent4,
+            AppbarBackground = "#e1372d",
+        },
+        LayoutProperties = new LayoutProperties()
+        {
+            DrawerWidthLeft = "260px",
+            DrawerWidthRight = "300px"
+        }
+    };
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

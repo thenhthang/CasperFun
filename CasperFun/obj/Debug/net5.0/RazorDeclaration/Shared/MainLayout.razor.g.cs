@@ -89,6 +89,69 @@ using MudBlazor;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using Blazored.SessionStorage;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using System.Text.Json;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "/Users/room/Development/blazor/CasperFun/CasperFun/Shared/MainLayout.razor"
+using System.Security.Claims;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "/Users/room/Development/blazor/CasperFun/CasperFun/Shared/MainLayout.razor"
+using Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "/Users/room/Development/blazor/CasperFun/CasperFun/Shared/MainLayout.razor"
+using Auth;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "/Users/room/Development/blazor/CasperFun/CasperFun/Shared/MainLayout.razor"
+using Microsoft.AspNetCore.Authorization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "/Users/room/Development/blazor/CasperFun/CasperFun/Shared/MainLayout.razor"
+           [Authorize]
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998
@@ -97,18 +160,41 @@ using MudBlazor;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 29 "/Users/room/Development/blazor/CasperFun/CasperFun/Shared/MainLayout.razor"
+#line 48 "/Users/room/Development/blazor/CasperFun/CasperFun/Shared/MainLayout.razor"
        
     bool _drawerOpen = true;
-
-    void DrawerToggle()
+    [Inject]
+    private AuthenticationStateProvider authenticationState { get; set; }
+       
+        void DrawerToggle()
     {
         _drawerOpen = !_drawerOpen;
+    }
+    private async Task ConnectWallet()
+    {
+        await _casperService.Connect();
+        string Address = await _casperService.GetAddress();
+        if (Address != "")
+        {
+            UserModel user = new UserModel();
+            user.Account = Address;
+            user.LogTime = DateTime.Now.ToLongTimeString();
+            await ((MyAuthenticationStateProvider)authenticationState).MakeSignIn(user);
+            StateHasChanged();
+        }
+
+    }
+    private async Task DisConnect()
+    {
+        await _casperService.DisConnect();
+        await ((MyAuthenticationStateProvider)authenticationState).MakeSignOut();
+        StateHasChanged();
     }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ICasperService _casperService { get; set; }
     }
 }
 #pragma warning restore 1591

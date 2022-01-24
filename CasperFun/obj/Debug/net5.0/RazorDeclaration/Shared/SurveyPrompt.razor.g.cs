@@ -89,6 +89,41 @@ using MudBlazor;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using System.Security.Claims;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 14 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using Microsoft.AspNetCore.Components.Authorization;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 15 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using Blazored.SessionStorage;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 16 "/Users/room/Development/blazor/CasperFun/CasperFun/_Imports.razor"
+using System.Text.Json;
+
+#line default
+#line hidden
+#nullable disable
     public partial class SurveyPrompt : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

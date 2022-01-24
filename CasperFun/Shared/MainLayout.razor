@@ -1,15 +1,27 @@
 ﻿@inherits LayoutComponentBase
-
-<MudThemeProvider />
-<MudDialogProvider />
-<MudSnackbarProvider />
+@inject ICasperService _casperService
+@using System.Security.Claims
+@using Models
+@using Auth
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
 
 <MudLayout>
     <MudAppBar Elevation="0">
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
         <MudSpacer />
-        <MudButton ButtonType="ButtonType.Button"  Color="Color.Inherit">Connect Wallet</MudButton>
-        <MudButton ButtonType="ButtonType.Button" Color="Color.Inherit">Disconnect</MudButton>
+        <AuthorizeView>
+            <Authorized>
+                @*<MudButton ButtonType="ButtonType.Button" Color="Color.Inherit">@context.User.FindFirst(ClaimTypes.NameIdentifier).Value</MudButton>*@
+                <MudText >@context.User.FindFirst(ClaimTypes.NameIdentifier).Value</MudText>
+                <MudButton ButtonType="ButtonType.Button" Color="Color.Inherit" OnClick="DisConnect">Disconnect</MudButton>
+            </Authorized>
+            <NotAuthorized>
+                <MudButton ButtonType="ButtonType.Button" Color="Color.Inherit" OnClick="ConnectWallet">Connect Wallet</MudButton>
+            </NotAuthorized>
+        </AuthorizeView>
+
+
     </MudAppBar>
     <MudDrawer @bind-Open="_drawerOpen" Elevation="1">
         <MudDrawerHeader>
@@ -18,6 +30,13 @@
             </MudLink>
         </MudDrawerHeader>
         <NavMenu />
+        <MudSpacer/>
+        <MudButtonGroup Color="Color.Surface" Variant="Variant.Text" DisableElevation="true" Size="Size.Small">
+            <MudButton StartIcon="@Icons.Custom.Brands.Twitter" Style="text-transform:none" Size="Size.Small">Twitter</MudButton>
+            <MudButton StartIcon="@Icons.Custom.Brands.Telegram" Style="text-transform:none" Size="Size.Small">Telegram</MudButton>
+            <MudButton StartIcon="@Icons.Custom.Brands.GitHub" Style="text-transform:none" Size="Size.Small">Github</MudButton>
+        </MudButtonGroup>
+        <MudButton Style="text-transform: none" Size="Size.Small" ButtonType="ButtonType.Reset" Disabled="true">Copyright © 2022 CasperFun</MudButton>
     </MudDrawer>
     <MudMainContent>
         <MudContainer MaxWidth="MaxWidth.Large" Class="">
@@ -28,9 +47,31 @@
 
 @code {
     bool _drawerOpen = true;
-
-    void DrawerToggle()
+    [Inject]
+    private AuthenticationStateProvider authenticationState { get; set; }
+       
+        void DrawerToggle()
     {
         _drawerOpen = !_drawerOpen;
+    }
+    private async Task ConnectWallet()
+    {
+        await _casperService.Connect();
+        string Address = await _casperService.GetAddress();
+        if (Address != "")
+        {
+            UserModel user = new UserModel();
+            user.Account = Address;
+            user.LogTime = DateTime.Now.ToLongTimeString();
+            await ((MyAuthenticationStateProvider)authenticationState).MakeSignIn(user);
+            StateHasChanged();
+        }
+
+    }
+    private async Task DisConnect()
+    {
+        await _casperService.DisConnect();
+        await ((MyAuthenticationStateProvider)authenticationState).MakeSignOut();
+        StateHasChanged();
     }
 }

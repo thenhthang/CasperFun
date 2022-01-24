@@ -10,6 +10,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.13" PrivateAssets="all" />
     <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
     <PackageReference Include="MudBlazor" Version="5.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="5.0.13" />
+    <PackageReference Include="Blazored.SessionStorage" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,6 +20,13 @@
 
   <ItemGroup>
     <None Remove="MudBlazor" />
+    <None Remove="Services\" />
+    <None Remove="Models\" />
+    <None Remove="Auth\" />
+    <None Remove="Microsoft.AspNetCore.Components.WebAssembly.Authentication" />
+    <None Remove="BlazorBrowserStorage" />
+    <None Remove="Common\" />
+    <None Remove="Blazored.SessionStorage" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\js\" />
@@ -26,5 +35,9 @@
   <ItemGroup>
     <Folder Include="wwwroot\js\" />
     <Folder Include="wwwroot\img\" />
+    <Folder Include="Services\" />
+    <Folder Include="Models\" />
+    <Folder Include="Auth\" />
+    <Folder Include="Common\" />
   </ItemGroup>
 </Project>
