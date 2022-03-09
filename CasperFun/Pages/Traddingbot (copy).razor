@@ -1,0 +1,123 @@
+﻿@page "/traddingbot2"
+@using Models;
+@using BotClient;
+@using CasperFun.Common;
+<h3>T R A D D I N G . B O T</h3>
+<MudForm @bind-IsValid="@Success">
+    @*<MudTextField Required="true" Label="Wallet address" @bind-Value="@_botModel.AccountAddress" InputType="InputType.Text" />*@
+    <MudTextField Required="true" Label="Private key" @bind-Value="@_botModel.AccountPrivateKey" InputType="InputType.Password" />
+    <MudTextField Required="true" Label="Token contract" @bind-Value="@_botModel.TokenContract" InputType="InputType.Text" />
+    <MudNumericField Required="true" Label="Price to buy" Format="N9" @bind-Value="@_botModel.PriceToBuy" InputMode="InputMode.numeric" />
+    <MudNumericField Required="true" Label="Price to sell" Format="N9" @bind-Value="@_botModel.PriceToSell" InputMode="InputMode.numeric" />
+    <MudNumericField Required="true" Label="Amound BUSD" Format="N0" @bind-Value="@_botModel.AmountIn" InputMode="InputMode.numeric" />
+    <MudButton Color="Color.Primary" Disabled="@(!Success)" OnClick="StartBot">Start</MudButton>
+</MudForm>
+<MudSimpleTable Hover="true" Dense="true" FixedHeader="@true"
+                Style="height:350px;background-color:black;color:white" Bordered="false">
+    <thead>
+        <tr>
+            @foreach (var h in headings)
+            {
+                <th style="background-color:black;color:white">@h</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in _tradeHistory)
+        {
+        <tr>
+            <td>@item.Time</td>
+            <td>@item.Price</td>
+            <td>@item.Action</td>
+            <td>@item.Status</td>
+            <td>@item.Amount</td>
+            <td>@item.Receive</td>
+        </tr>
+        }
+    </tbody>
+</MudSimpleTable>
+<MudSimpleTable Hover="true" Dense="true" FixedHeader="@true"
+                Style="height:150px;background-color:black;color:white" Bordered="false">
+    <thead>
+        <tr>
+            @foreach (var h in headings)
+            {
+                <th style="background-color:black;color:white">@h</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in _tradeLog)
+        {
+            <tr>
+                <td>@item.Time</td>
+                <td>@item.Price</td>
+                <td>@item.Action</td>
+                <td>@item.Status</td>
+                <td>@item.Amount</td>
+                <td>@item.Receive</td>
+            </tr>
+        }
+    </tbody>
+</MudSimpleTable>
+<h3>Pair Address: @pair</h3>
+@code {
+    bool Success;
+    BotModel _botModel = new BotModel();
+    Queue<TradeHistory> _tradeHistory = new Queue<TradeHistory>();
+    List<TradeHistory> _tradeLog = new List<TradeHistory>();
+    string[] headings = { "Time", "Price", "Action", "Status", "Amount", "Receive"};
+    string pair = "Not";
+    private async void StartBot()
+    {
+        _botModel.AccountPrivateKey = _botModel.AccountPrivateKey;
+        _botModel.TokenContract = _botModel.TokenContract;
+        BotClient _botClient = new BotClient(InfuraNetwork.BNBChainMainNet, _botModel);
+
+        bool IsRunning = true;
+        while (IsRunning)
+        {
+            //0xaf6e358F0dE542E938d83ff1A00Fbde886f9D2Bd
+            //0xaf6e358F0dE542E938d83ff1A00Fbde886f9D2Bd
+            //pair = await _botClient.GetPair(BNBChain.Contract_BUSD,_botModel.TokenContract);
+
+            if (_tradeHistory.Count > 10)
+            {
+                _tradeHistory.Dequeue();
+            }
+            var price = await _botClient.GetTokenPrice();
+            var balance = await _botClient.GetTokenBalance(_botModel.TokenContract);
+            TradeHistory tradeHis = new TradeHistory()
+            {
+                Time = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss:ffff"),
+                Price = price.ToString("C4"),
+                Action = "None",
+                Status = "",
+                Amount = balance.ToString("N4"),
+                Receive = "0",
+                
+            };
+            if (price <= _botModel.PriceToBuy)
+            {
+                tradeHis.Action = "Buy";
+                 _botClient.Swap(_botModel.AmountIn, BNBChain.Contract_BUSD, _botModel.TokenContract);
+                IsRunning = false;
+                _tradeLog.Add(tradeHis);
+            }
+            else if (price >= _botModel.PriceToSell)
+            {
+                tradeHis.Action = "Sell";
+                IsRunning = false;
+                _tradeLog.Add(tradeHis);
+            }
+
+            _tradeHistory.Enqueue(tradeHis);
+            await InvokeAsync(StateHasChanged);
+
+            await Task.Delay(1000);
+            //Thread.Sleep(1000);
+        }
+
+    }
+
+}

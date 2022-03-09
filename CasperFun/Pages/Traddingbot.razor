@@ -1,0 +1,116 @@
+﻿@page "/traddingbot"
+@using Models;
+@using BotClient;
+
+<h3>T R A D D I N G . B O T</h3>
+<EditForm Model="_botModel" OnValidSubmit="StartBot">
+    <MudText Value="Free bot for trandding"  />
+    <MudInput Required="true" Placeholder="Wallet address" Value="@_botModel.AccountAddress" InputType="InputType.Text" />
+    <MudInput Required="true" Placeholder="Private key" Value="@_botModel.AccountPrivateKey" InputType="InputType.Password" />
+    <MudInput Required="true" Placeholder="Token contract" Value="@_botModel.TokenContract" InputType="InputType.Text" />
+    <MudInput Required="true" Label="Price to buy" Placeholder="Price to buy" Value="@_botModel.PriceToBuy" InputType="InputType.Number" />
+    <MudInput Required="true" Label="Price to sell" Placeholder="Price to sell" Value="@_botModel.PriceToSell" InputType="InputType.Number" />
+    <MudButton ButtonType="ButtonType.Submit">Start</MudButton>
+</EditForm>
+<MudSimpleTable Hover="true" Dense="true" FixedHeader="@true"
+                Style="height:350px;background-color:black;color:white" Bordered="false">
+    <thead>
+        <tr>
+            @foreach (var h in headings)
+            {
+                <th style="background-color:black;color:white">@h</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in _tradeHistory)
+        {
+        <tr>
+            <td>@item.Time</td>
+            <td>@item.Price</td>
+            <td>@item.Action</td>
+            <td>@item.Status</td>
+            <td>@item.Amount</td>
+            <td>@item.Receive</td>
+        </tr>
+        }
+    </tbody>
+</MudSimpleTable>
+<MudSimpleTable Hover="true" Dense="true" FixedHeader="@true"
+                Style="height:150px;background-color:black;color:white" Bordered="false">
+    <thead>
+        <tr>
+            @foreach (var h in headings)
+            {
+                <th style="background-color:black;color:white">@h</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in _tradeLog)
+        {
+            <tr>
+                <td>@item.Time</td>
+                <td>@item.Price</td>
+                <td>@item.Action</td>
+                <td>@item.Status</td>
+                <td>@item.Amount</td>
+                <td>@item.Receive</td>
+            </tr>
+        }
+    </tbody>
+</MudSimpleTable>
+@code {
+    private BotModel _botModel = new BotModel();
+    private BotClient _botClient = null;
+    private Queue<TradeHistory> _tradeHistory = new Queue<TradeHistory>();
+    private List<TradeHistory> _tradeLog = new List<TradeHistory>();
+    string[] headings = { "Time", "Price", "Action", "Status", "Amount","Receive" };
+    private System.Timers.Timer _timer;
+    private  void StartBot()
+    {
+        _botModel = new BotModel();
+        _botModel.AccountPrivateKey = "4c2436eea43bf780a37d5fa09bf0ed2a365099fa611d5656d9ac6ad11e15ba52";
+        _botModel.TokenContract = "0xef9481115ff33E94d3E28A52D3A8F642bf3521e5";
+        _botClient = new BotClient(InfuraNetwork.BNBChainMainNet, _botModel);
+         _timer = new System.Timers.Timer(1000);
+         _timer.Elapsed += Run;
+         _timer.Enabled = true;
+    }
+    private async void Run(Object source, System.Timers.ElapsedEventArgs e)
+    {
+        if (_tradeHistory.Count > 10)
+        {
+            _tradeHistory.Dequeue();
+        }
+        var price = await _botClient.GetTokenPrice();
+        var balance = await _botClient.GetTokenBalance(_botModel.TokenContract);
+        TradeHistory tradeHis = new TradeHistory()
+        {
+            Time = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss:ffff"),
+            Price = price.ToString("C4"),
+            Action = "None",
+            Status = "",
+            Amount = balance.ToString("N4"),
+            Receive = "0"
+        };
+        if (price <= (decimal)0.02970)
+        {
+            tradeHis.Action = "Buy";
+            _botClient.Buy();
+            _tradeLog.Add(tradeHis);
+            _timer.Stop();
+            _timer.Enabled = false;
+        }
+        else if (price >= (decimal)0.03500)
+        {
+            tradeHis.Action = "Sell";
+            _tradeLog.Add(tradeHis);
+        }
+
+        _tradeHistory.Enqueue(tradeHis);
+
+        await InvokeAsync(StateHasChanged);
+    }
+
+}

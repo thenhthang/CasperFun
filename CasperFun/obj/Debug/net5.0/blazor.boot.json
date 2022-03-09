@@ -8,6 +8,7 @@
   "resources": {
     "assembly": {
       "Blazored.SessionStorage.dll": "sha256-XkZNIC6OGMeHZDbBGnhfc9yXdLIvGa8LlKDd4ZPWkS8=",
+      "Common.Logging.Core.dll": "sha256-N1etuvirNg6bPBNa9k+tAlMp8GSLrLgHasZqPu3b0Qo=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-v2n7Q6PfIiAvv9anCBl0llzwtdxr0iCZZar3ne8Bxds=",
       "Microsoft.AspNetCore.Components.dll": "sha256-jAjgCR5HlevP6ZX6aOgY1nmSw3my7LJ2d\/2r+K38zn4=",
       "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-l1VO4I6\/InFr97boE0G\/6axytg11UBQrjbo8NfJixnw=",
@@ -33,6 +34,24 @@
       "Microsoft.JSInterop.dll": "sha256-1pTA0jNmI3yFlUcra3ChlWUZgNtrO8f9SBk369sCfhQ=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-82WpISDbT05plFV\/m3Glhh8w1jttcRp+pgJDwKwl7Q0=",
       "MudBlazor.dll": "sha256-x9BmKPbuHDJmwWsSIgWLryYOZWQQI8ccdr7xyg85JFI=",
+      "NBitcoin.Secp256k1.dll": "sha256-S5FEbI+wUwOKYiSW+jARlzg2PRXRixMI9BQI+9PNfjs=",
+      "Nethereum.ABI.dll": "sha256-ixtvaCNEQZycN3k1nAfzJQizO56G1gxQPKUC0KvBnP4=",
+      "Nethereum.Accounts.dll": "sha256-a\/eEYxvWhjiZ\/58VDV7ca7hrEfw64vw\/M6J8JVxbFO0=",
+      "Nethereum.BlockchainProcessing.dll": "sha256-ZldjY16QQzU5fTGCW2h6PHkoH\/L6THPSAQUr9\/aMICw=",
+      "Nethereum.Contracts.dll": "sha256-eulUcoT7xsAFbR1j4axFZ85SYwR\/vmkT9E21fuioAB0=",
+      "Nethereum.Hex.dll": "sha256-sizrIYEUmGBzDoMogOfScl9A3fOeKevCkdcuXN9KrHU=",
+      "Nethereum.JsonRpc.Client.dll": "sha256-7AzX6Hq3+i+jxMoQ\/6Un5K8F0ZtLXQwPeKWcZDEzekg=",
+      "Nethereum.JsonRpc.RpcClient.dll": "sha256-+2GCnkZMonuzWKUC8E4KqjSmVwaZtd8eqdvXBN8gA9w=",
+      "Nethereum.KeyStore.dll": "sha256-pFtJHN4R65HAVUGjNBbfu2zhdOUTKB8rbZL++5OnlUQ=",
+      "Nethereum.Model.dll": "sha256-Gm+izvOkMyJH6FAuPpPQomZRw9g5QUElDm\/TFQUrdUA=",
+      "Nethereum.RLP.dll": "sha256-z23fdP9FYn3O8Y2UDt1DhZq\/3AJxuW5O8Zw+tPXMElA=",
+      "Nethereum.RPC.dll": "sha256-zpvGFwGlutKZLbYVpQonEaB3YOawS2RUu2bFEZXBCik=",
+      "Nethereum.Signer.dll": "sha256-A3p8JTYxJdObAdG5irNNhcNllMwAQCjdHs2K+Su9TqU=",
+      "Nethereum.StandardTokenEIP20.dll": "sha256-73OVXQCia7G19kImTragQog+gpp5Oo3+dAoNXcDIpPc=",
+      "Nethereum.Util.dll": "sha256-KhOHhn6RXFvbQNfNh7Wuyutl+FyAVm2jD8Xmf9au0Ww=",
+      "Nethereum.Web3.dll": "sha256-S2jRjGQFJ7R6zxNvSlF7CMRphRI\/6T3Sr9GSu6263IA=",
+      "Newtonsoft.Json.dll": "sha256-AmjYhRYDXrZ4UeFf6lvSeHEA5V9O1qnItDSf6TPDkyk=",
+      "BouncyCastle.Crypto.dll": "sha256-n7KC+76rIikEfNEJ10mSwNXh+MMbda\/f4FD9fZ8WIw4=",
       "System.IO.Pipelines.dll": "sha256-3ET+mpR7F058YRj9YaLHOVXBqOW6iUxtIpeiKPYw4PA=",
       "System.Net.Http.Json.dll": "sha256-V0pRBujaPxa+i3NEDwY5FhQhHc0zRIOD\/xGeHqEI6Mg=",
       "System.Runtime.CompilerServices.Unsafe.dll": "sha256-pTOoCbS7iwJyxzOPotRV6qdes42KCU6cOmuvfmJvXI8=",
@@ -199,11 +218,11 @@
       "mscorlib.dll": "sha256-0qsbc1acYr3S6P7t9gSYyghOhMVs3CTJ9ukQ1VXqksY=",
       "netstandard.dll": "sha256-4Ejn1oHpeqmTQlJx7Kjuipn0ZVOoG0hGncN+9qyL1lo=",
       "System.Private.CoreLib.dll": "sha256-7n\/jioZu+\/2tD7v1RgjTTrBrviX+kVwPFGJ\/JBsHQGA=",
-      "CasperFun.dll": "sha256-vCYlhTmwA\/P1sPJSLuk93ZoUMOJZsw+MleIB++5pcZw="
+      "CasperFun.dll": "sha256-gxAu55NO\/IeJPtvjuiwCasPlM0YCba\/fK9NPSWqzuwU="
     },
     "lazyAssembly": null,
     "pdb": {
-      "CasperFun.pdb": "sha256-0b0xYU2eLgxgdvTD0DRGAFoLiIw31nv8Bq26CVIQQyE="
+      "CasperFun.pdb": "sha256-FgymcYhpCdt8kGR1alM3\/30tMDzy3Gb8AmOK3MV6HHc="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-Uv0JiOiPEvlGxygIhcdY8XYm\/Nt+zgVckKrqB2uih0w=",

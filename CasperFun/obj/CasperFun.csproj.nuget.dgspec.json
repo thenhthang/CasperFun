@@ -59,6 +59,14 @@
               "target": "Package",
               "version": "[5.2.0, )"
             },
+            "Nethereum.StandardTokenEIP20": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Nethereum.Web3": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[6.0.0, )"

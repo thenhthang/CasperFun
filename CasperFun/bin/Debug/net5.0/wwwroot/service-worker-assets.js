@@ -13,12 +13,16 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     },
     {
-      "hash": "sha256-LI7gw5TBNjsEnWfgV2WYWW4arBzi\/mc7v8H75adWM64=",
+      "hash": "sha256-gMtRuGFqafJQWY5xxjUuheNgBPEYpLwJeVPSQLciNsw=",
       "url": "_framework\/blazor.boot.json"
     },
     {
       "hash": "sha256-XkZNIC6OGMeHZDbBGnhfc9yXdLIvGa8LlKDd4ZPWkS8=",
       "url": "_framework\/Blazored.SessionStorage.dll"
+    },
+    {
+      "hash": "sha256-N1etuvirNg6bPBNa9k+tAlMp8GSLrLgHasZqPu3b0Qo=",
+      "url": "_framework\/Common.Logging.Core.dll"
     },
     {
       "hash": "sha256-v2n7Q6PfIiAvv9anCBl0llzwtdxr0iCZZar3ne8Bxds=",
@@ -119,6 +123,78 @@
     {
       "hash": "sha256-x9BmKPbuHDJmwWsSIgWLryYOZWQQI8ccdr7xyg85JFI=",
       "url": "_framework\/MudBlazor.dll"
+    },
+    {
+      "hash": "sha256-S5FEbI+wUwOKYiSW+jARlzg2PRXRixMI9BQI+9PNfjs=",
+      "url": "_framework\/NBitcoin.Secp256k1.dll"
+    },
+    {
+      "hash": "sha256-ixtvaCNEQZycN3k1nAfzJQizO56G1gxQPKUC0KvBnP4=",
+      "url": "_framework\/Nethereum.ABI.dll"
+    },
+    {
+      "hash": "sha256-a\/eEYxvWhjiZ\/58VDV7ca7hrEfw64vw\/M6J8JVxbFO0=",
+      "url": "_framework\/Nethereum.Accounts.dll"
+    },
+    {
+      "hash": "sha256-ZldjY16QQzU5fTGCW2h6PHkoH\/L6THPSAQUr9\/aMICw=",
+      "url": "_framework\/Nethereum.BlockchainProcessing.dll"
+    },
+    {
+      "hash": "sha256-eulUcoT7xsAFbR1j4axFZ85SYwR\/vmkT9E21fuioAB0=",
+      "url": "_framework\/Nethereum.Contracts.dll"
+    },
+    {
+      "hash": "sha256-sizrIYEUmGBzDoMogOfScl9A3fOeKevCkdcuXN9KrHU=",
+      "url": "_framework\/Nethereum.Hex.dll"
+    },
+    {
+      "hash": "sha256-7AzX6Hq3+i+jxMoQ\/6Un5K8F0ZtLXQwPeKWcZDEzekg=",
+      "url": "_framework\/Nethereum.JsonRpc.Client.dll"
+    },
+    {
+      "hash": "sha256-+2GCnkZMonuzWKUC8E4KqjSmVwaZtd8eqdvXBN8gA9w=",
+      "url": "_framework\/Nethereum.JsonRpc.RpcClient.dll"
+    },
+    {
+      "hash": "sha256-pFtJHN4R65HAVUGjNBbfu2zhdOUTKB8rbZL++5OnlUQ=",
+      "url": "_framework\/Nethereum.KeyStore.dll"
+    },
+    {
+      "hash": "sha256-Gm+izvOkMyJH6FAuPpPQomZRw9g5QUElDm\/TFQUrdUA=",
+      "url": "_framework\/Nethereum.Model.dll"
+    },
+    {
+      "hash": "sha256-z23fdP9FYn3O8Y2UDt1DhZq\/3AJxuW5O8Zw+tPXMElA=",
+      "url": "_framework\/Nethereum.RLP.dll"
+    },
+    {
+      "hash": "sha256-zpvGFwGlutKZLbYVpQonEaB3YOawS2RUu2bFEZXBCik=",
+      "url": "_framework\/Nethereum.RPC.dll"
+    },
+    {
+      "hash": "sha256-A3p8JTYxJdObAdG5irNNhcNllMwAQCjdHs2K+Su9TqU=",
+      "url": "_framework\/Nethereum.Signer.dll"
+    },
+    {
+      "hash": "sha256-73OVXQCia7G19kImTragQog+gpp5Oo3+dAoNXcDIpPc=",
+      "url": "_framework\/Nethereum.StandardTokenEIP20.dll"
+    },
+    {
+      "hash": "sha256-KhOHhn6RXFvbQNfNh7Wuyutl+FyAVm2jD8Xmf9au0Ww=",
+      "url": "_framework\/Nethereum.Util.dll"
+    },
+    {
+      "hash": "sha256-S2jRjGQFJ7R6zxNvSlF7CMRphRI\/6T3Sr9GSu6263IA=",
+      "url": "_framework\/Nethereum.Web3.dll"
+    },
+    {
+      "hash": "sha256-AmjYhRYDXrZ4UeFf6lvSeHEA5V9O1qnItDSf6TPDkyk=",
+      "url": "_framework\/Newtonsoft.Json.dll"
+    },
+    {
+      "hash": "sha256-n7KC+76rIikEfNEJ10mSwNXh+MMbda\/f4FD9fZ8WIw4=",
+      "url": "_framework\/BouncyCastle.Crypto.dll"
     },
     {
       "hash": "sha256-3ET+mpR7F058YRj9YaLHOVXBqOW6iUxtIpeiKPYw4PA=",
@@ -813,11 +889,11 @@
       "url": "_framework\/dotnet.5.0.13.js"
     },
     {
-      "hash": "sha256-vCYlhTmwA\/P1sPJSLuk93ZoUMOJZsw+MleIB++5pcZw=",
+      "hash": "sha256-gxAu55NO\/IeJPtvjuiwCasPlM0YCba\/fK9NPSWqzuwU=",
       "url": "_framework\/CasperFun.dll"
     },
     {
-      "hash": "sha256-0b0xYU2eLgxgdvTD0DRGAFoLiIw31nv8Bq26CVIQQyE=",
+      "hash": "sha256-FgymcYhpCdt8kGR1alM3\/30tMDzy3Gb8AmOK3MV6HHc=",
       "url": "_framework\/CasperFun.pdb"
     },
     {
@@ -827,6 +903,10 @@
     {
       "hash": "sha256-OAJed10gBKEOZ\/mAzpKh+bQQW4b\/INZzTtOw92LVhOQ=",
       "url": "_framework\/Blazored.SessionStorage.dll.gz"
+    },
+    {
+      "hash": "sha256-c7b9G2z2T7JqvnGsYOM9lZSuWi3d2gmlymfYpxuU2qI=",
+      "url": "_framework\/Common.Logging.Core.dll.gz"
     },
     {
       "hash": "sha256-WqsEmpnBLTmmlg70pD7o6yilAJ23svDLp9oRLTeBZB8=",
@@ -927,6 +1007,78 @@
     {
       "hash": "sha256-N7a3Vow\/auTqXGVl2ciKaGFn0mwJr8JPdhumbyWWE5A=",
       "url": "_framework\/MudBlazor.dll.gz"
+    },
+    {
+      "hash": "sha256-HWOASoAbPRAtq5CNDDoC3ES6Cskaxv2+DlV9MK\/\/jCk=",
+      "url": "_framework\/NBitcoin.Secp256k1.dll.gz"
+    },
+    {
+      "hash": "sha256-MOlRLG9MYefuSWqzi1jpXi0Z2PV22u+eARLL5qLos0A=",
+      "url": "_framework\/Nethereum.ABI.dll.gz"
+    },
+    {
+      "hash": "sha256-ncCI802IdpyE1PYlz8QjGw14M0DF9\/DSH9k36mnZjlw=",
+      "url": "_framework\/Nethereum.Accounts.dll.gz"
+    },
+    {
+      "hash": "sha256-A6OJzJZvWL4zkvolqCpgRPSCu06BaB0JBBYIydyuAPg=",
+      "url": "_framework\/Nethereum.BlockchainProcessing.dll.gz"
+    },
+    {
+      "hash": "sha256-ZLvdyT0tDPQeS1S47Ed9J5CnCqCF4qHrr6rmSm9wOAM=",
+      "url": "_framework\/Nethereum.Contracts.dll.gz"
+    },
+    {
+      "hash": "sha256-x75V6EhYeNHA9nO0emwy1dGjQMGtWm1t2B6lrWyW5A4=",
+      "url": "_framework\/Nethereum.Hex.dll.gz"
+    },
+    {
+      "hash": "sha256-vfpHZwGhhOQw+iIHyNk+GfP0c34TDm\/KXsD1YhjUTTg=",
+      "url": "_framework\/Nethereum.JsonRpc.Client.dll.gz"
+    },
+    {
+      "hash": "sha256-M2DUHMne3VmPiH3C\/nk+c8vWT3bFivIsDCAlkAJgF1M=",
+      "url": "_framework\/Nethereum.JsonRpc.RpcClient.dll.gz"
+    },
+    {
+      "hash": "sha256-FoVDMB7KpTPe8WPS697xUGbiuTTDzkUfU5kOf+Jh8J0=",
+      "url": "_framework\/Nethereum.KeyStore.dll.gz"
+    },
+    {
+      "hash": "sha256-N3HbXOOuFQ5rIiZAwkwkU2ZFBToQ4YlXH9ITXq1Svx8=",
+      "url": "_framework\/Nethereum.Model.dll.gz"
+    },
+    {
+      "hash": "sha256-zkZc52fVa9b\/iqmTzW7p3knGFGGmqdhIP9DxA5sWW6w=",
+      "url": "_framework\/Nethereum.RLP.dll.gz"
+    },
+    {
+      "hash": "sha256-LckGw4NTLCVRlcjuo3X1i+CHw3yiCk3KmxXF1Z98s8w=",
+      "url": "_framework\/Nethereum.RPC.dll.gz"
+    },
+    {
+      "hash": "sha256-eWn5H54dqKdSAidvCnfsuNefj1fAzb9HMy1KHAgv4kE=",
+      "url": "_framework\/Nethereum.Signer.dll.gz"
+    },
+    {
+      "hash": "sha256-1LLa8CpoZON1AHJSDbcUJwhTHMVEAART+9NBSbvCRa4=",
+      "url": "_framework\/Nethereum.StandardTokenEIP20.dll.gz"
+    },
+    {
+      "hash": "sha256-BsybBJFtfxnqbkPITweGWpgbiAuOHh\/nUeAK9ZLfxBY=",
+      "url": "_framework\/Nethereum.Util.dll.gz"
+    },
+    {
+      "hash": "sha256-vnIu8zkKGgRsUYxnl30FP8K+34DTTyN+cYMvM1ZyU\/A=",
+      "url": "_framework\/Nethereum.Web3.dll.gz"
+    },
+    {
+      "hash": "sha256-vYiKJPx2H+IB7unFcK3B0R0iiYzgqQPAjOHvBEnXpPE=",
+      "url": "_framework\/Newtonsoft.Json.dll.gz"
+    },
+    {
+      "hash": "sha256-lJXMHTuS2d6bU19+CVmFrBZ48jHF6ahWktTQOgiKYSs=",
+      "url": "_framework\/BouncyCastle.Crypto.dll.gz"
     },
     {
       "hash": "sha256-Oo2PR\/8iIaYz96jk5MaPhnVUyOhGz0xZyM2B1kdbT68=",
@@ -1713,5 +1865,5 @@
       "url": "CasperFun.bundle.scp.css"
     }
   ],
-  "version": "6M79OA0c"
+  "version": "KpX0uotW"
 };

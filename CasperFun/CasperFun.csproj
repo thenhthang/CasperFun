@@ -12,6 +12,8 @@
     <PackageReference Include="MudBlazor" Version="5.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="5.0.13" />
     <PackageReference Include="Blazored.SessionStorage" Version="2.2.0" />
+    <PackageReference Include="Nethereum.Web3" Version="4.2.0" />
+    <PackageReference Include="Nethereum.StandardTokenEIP20" Version="4.2.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +29,9 @@
     <None Remove="BlazorBrowserStorage" />
     <None Remove="Common\" />
     <None Remove="Blazored.SessionStorage" />
+    <None Remove="Nethereum.Web3" />
+    <None Remove="Web3\" />
+    <None Remove="Nethereum.StandardTokenEIP20" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\js\" />
@@ -39,5 +44,6 @@
     <Folder Include="Models\" />
     <Folder Include="Auth\" />
     <Folder Include="Common\" />
+    <Folder Include="Web3\" />
   </ItemGroup>
 </Project>
